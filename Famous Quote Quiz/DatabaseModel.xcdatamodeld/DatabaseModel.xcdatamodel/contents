@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="14F1021" minimumToolsVersion="Xcode 7.0">
+    <entity name="Choice" representedClassName=".Choice" syncable="YES">
+        <attribute name="choice" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="question" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Question" inverseName="choices" inverseEntity="Question" syncable="YES"/>
+    </entity>
+    <entity name="Mode" representedClassName=".Mode" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="questions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Question" inverseName="mode" inverseEntity="Question" syncable="YES"/>
+    </entity>
+    <entity name="Question" representedClassName=".Question" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="choices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Choice" inverseName="question" inverseEntity="Choice" syncable="YES"/>
+        <relationship name="mode" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Mode" inverseName="questions" inverseEntity="Mode" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Choice" positionX="-36" positionY="-105" width="128" height="73"/>
+        <element name="Mode" positionX="-414" positionY="-99" width="128" height="73"/>
+        <element name="Question" positionX="-225" positionY="-106" width="128" height="103"/>
+    </elements>
+</model>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Answer</key>
+		<string>No</string>
+		<key>Question</key>
+		<string>Can pigs walk on two feet?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>No</string>
+		<key>Question</key>
+		<string>Can you stretch a rock?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>Yes</string>
+		<key>Question</key>
+		<string>Can you sleep in the day time?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>Yes</string>
+		<key>Question</key>
+		<string>Can you ride a bike without a helmet?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>No</string>
+		<key>Question</key>
+		<string>Can you eat without a mouth?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>No</string>
+		<key>Question</key>
+		<string>Can a circle have corners?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>No</string>
+		<key>Question</key>
+		<string>Are football and baseball types of food?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>Yes</string>
+		<key>Question</key>
+		<string>Are houses more than $50 dollars?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>Yes</string>
+		<key>Question</key>
+		<string>Are there 60 minutes in an hour?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>Yes</string>
+		<key>Question</key>
+		<string>Are muscles needed to move our body?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>No</string>
+		<key>Question</key>
+		<string>Are dogs and cats animals that live in the jungle?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>No</string>
+		<key>Question</key>
+		<string>Are bananas and oranges sweet vegetables?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>Yes</string>
+		<key>Question</key>
+		<string>Are fruits and vegetables healthy to eat?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>No</string>
+		<key>Question</key>
+		<string>Do football players use sticks?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>No</string>
+		<key>Question</key>
+		<string>Do butterflies run fast?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>Yes</string>
+		<key>Question</key>
+		<string>Do new clothes get dirty?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>Yes</string>
+		<key>Question</key>
+		<string>Do computers help us find information?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>No</string>
+		<key>Question</key>
+		<string>Is twenty more than fifty?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>Yes</string>
+		<key>Question</key>
+		<string>Is it a doctor&apos;s job to save people?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>Yes</string>
+		<key>Question</key>
+		<string>Is a car faster than a bicycle?</string>
+	</dict>
+	<dict>
+		<key>Answer</key>
+		<string>No</string>
+		<key>Question</key>
+		<string>Is a cow bigger than an elephant?</string>
+	</dict>
+</array>
+</plist>

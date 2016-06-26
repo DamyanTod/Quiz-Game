@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Famous_Quote_Quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Famous Quote Quiz Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOC-JY-fSB">
+                                <rect key="frame" x="20" y="28" width="560" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="EFp-vX-p2T"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Roman" family="Iowan Old Style" pointSize="23"/>
+                                <color key="textColor" red="0.98823529409999999" green="0.32549019610000002" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" restorationIdentifier="2" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ds-dG-eyD" customClass="BaseBtn" customModule="Famous_Quote_Quiz" customModuleProvider="target">
+                                <rect key="frame" x="20" y="327" width="560" height="39"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="BrE-bh-wQU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Italic" family="Iowan Old Style" pointSize="22"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.9882352941176471" green="0.32549019607843138" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="possibleChoicePressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="2uw-sy-IFY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mkh-7q-T8E" customClass="BaseBtn" customModule="Famous_Quote_Quiz" customModuleProvider="target">
+                                <rect key="frame" x="20" y="280" width="560" height="39"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="G1k-Pu-2qs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Italic" family="Iowan Old Style" pointSize="22"/>
+                                <state key="normal" title="No">
+                                    <color key="titleColor" red="0.9882352941176471" green="0.32549019607843138" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="possibleChoicePressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="YhP-tv-vUc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="0" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tea-c4-joI" customClass="BaseBtn" customModule="Famous_Quote_Quiz" customModuleProvider="target">
+                                <rect key="frame" x="20" y="233" width="560" height="39"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="9Vt-7d-3bd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Italic" family="Iowan Old Style" pointSize="22"/>
+                                <state key="normal" title="Yes">
+                                    <color key="titleColor" red="0.9882352941176471" green="0.32549019607843138" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="possibleChoicePressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="826-2H-dKZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6H5-pS-qGG">
+                                <rect key="frame" x="161" y="101" width="279" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="279" id="OfW-5G-KFn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Italic" family="Iowan Old Style" pointSize="21"/>
+                                <color key="textColor" red="0.98823529409999999" green="0.32549019610000002" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grassBackground" translatesAutoresizingMaskIntoConstraints="NO" id="ECT-LQ-cs5">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27843137254901962" green="0.6470588235294118" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="5ds-dG-eyD" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="3fv-FK-In9"/>
+                            <constraint firstItem="eOC-JY-fSB" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="7Er-Qz-wvw"/>
+                            <constraint firstItem="6H5-pS-qGG" firstAttribute="centerX" secondItem="eOC-JY-fSB" secondAttribute="centerX" id="B8W-G6-2la"/>
+                            <constraint firstAttribute="trailing" secondItem="ECT-LQ-cs5" secondAttribute="trailing" id="BoD-4k-3S4"/>
+                            <constraint firstItem="eOC-JY-fSB" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="Eb7-9O-aRU"/>
+                            <constraint firstAttribute="bottom" secondItem="ECT-LQ-cs5" secondAttribute="bottom" id="Fla-V4-Nhr"/>
+                            <constraint firstItem="Mkh-7q-T8E" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="G1b-7S-Bb1"/>
+                            <constraint firstItem="Tea-c4-joI" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="Ldz-JL-hpX"/>
+                            <constraint firstItem="ECT-LQ-cs5" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="SCO-Kv-utb"/>
+                            <constraint firstItem="eOC-JY-fSB" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="8" id="Ug5-r2-snb"/>
+                            <constraint firstItem="Mkh-7q-T8E" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="WB2-oy-RDF"/>
+                            <constraint firstItem="Mkh-7q-T8E" firstAttribute="top" secondItem="Tea-c4-joI" secondAttribute="bottom" constant="8" id="Ycv-IL-4Wa"/>
+                            <constraint firstItem="5ds-dG-eyD" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="bzS-fl-7Is"/>
+                            <constraint firstItem="5ds-dG-eyD" firstAttribute="top" secondItem="Mkh-7q-T8E" secondAttribute="bottom" constant="8" id="ei7-8d-LCf"/>
+                            <constraint firstItem="Tea-c4-joI" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="jQT-d9-77c"/>
+                            <constraint firstItem="ECT-LQ-cs5" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="mPx-AR-U0O"/>
+                            <constraint firstItem="Mkh-7q-T8E" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="uWa-wb-hGv"/>
+                            <constraint firstItem="6H5-pS-qGG" firstAttribute="top" secondItem="eOC-JY-fSB" secondAttribute="bottom" constant="18" id="zqF-QQ-ci7"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Game" image="Decision" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="QuestionLabel" destination="6H5-pS-qGG" id="qCk-pq-N3W"/>
+                        <outlet property="firstChoiceBtn" destination="Tea-c4-joI" id="p1Q-4S-3sE"/>
+                        <outlet property="secondChoiceBtn" destination="Mkh-7q-T8E" id="WxS-JK-tqu"/>
+                        <outlet property="thirdChoiceBtn" destination="5ds-dG-eyD" id="DK7-if-LIz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-320"/>
+        </scene>
+        <!--Setings-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Famous_Quote_Quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grassBackground" translatesAutoresizingMaskIntoConstraints="NO" id="41t-YU-PxR">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" restorationIdentifier="Multiple" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jlS-JN-225">
+                                <rect key="frame" x="20" y="235" width="51" height="31"/>
+                                <color key="tintColor" red="0.9882352941176471" green="0.32549019607843138" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="onTintColor" red="0.9882352941176471" green="0.32549019607843138" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="changedSwitch:" destination="8rJ-Kc-sve" eventType="valueChanged" id="d4W-8q-xvV"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Possible Modes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZk-VH-hPt">
+                                <rect key="frame" x="224" y="103" width="163" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="163" id="9In-vt-qG1"/>
+                                    <constraint firstAttribute="height" constant="21" id="jdv-0J-JOv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Roman" family="Iowan Old Style" pointSize="23"/>
+                                <color key="textColor" red="0.98823529409999999" green="0.32549019610000002" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Multiple choice Mode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTp-sH-2rH">
+                                <rect key="frame" x="82" y="240" width="184" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="184" id="uU7-0X-XLB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Roman" family="Iowan Old Style" pointSize="17"/>
+                                <color key="textColor" red="0.98823529409999999" green="0.32549019610000002" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Binary Mode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1C-og-E7n">
+                                <rect key="frame" x="82" y="177" width="112" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="112" id="hmN-F7-zZS"/>
+                                    <constraint firstAttribute="height" constant="21" id="qrQ-fi-CWG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Roman" family="Iowan Old Style" pointSize="17"/>
+                                <color key="textColor" red="0.98823529409999999" green="0.32549019610000002" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" restorationIdentifier="Binary" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vvD-wo-puj">
+                                <rect key="frame" x="20" y="172" width="51" height="31"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="0.064798492680551156" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="onTintColor" red="0.9882352941176471" green="0.32549019607843138" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="changedSwitch:" destination="8rJ-Kc-sve" eventType="valueChanged" id="x27-yp-8fZ"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2784313725" green="0.64705882349999999" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="41t-YU-PxR" secondAttribute="trailing" id="5fU-zF-kb6"/>
+                            <constraint firstItem="41t-YU-PxR" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" id="5oH-BA-Dv7"/>
+                            <constraint firstItem="41t-YU-PxR" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="7pn-sv-L7G"/>
+                            <constraint firstAttribute="bottom" secondItem="41t-YU-PxR" secondAttribute="bottom" id="AxR-ad-0B4"/>
+                            <constraint firstItem="KTp-sH-2rH" firstAttribute="leading" secondItem="N1C-og-E7n" secondAttribute="leading" id="BSU-aq-ak4"/>
+                            <constraint firstItem="QZk-VH-hPt" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" constant="5.5" id="DnE-iv-ZgD"/>
+                            <constraint firstItem="KTp-sH-2rH" firstAttribute="top" secondItem="N1C-og-E7n" secondAttribute="bottom" constant="42" id="ESl-KO-fnf"/>
+                            <constraint firstItem="N1C-og-E7n" firstAttribute="leading" secondItem="vvD-wo-puj" secondAttribute="trailing" constant="13" id="Goe-hO-UiD"/>
+                            <constraint firstItem="41t-YU-PxR" firstAttribute="leading" secondItem="jlS-JN-225" secondAttribute="trailing" constant="-69" id="HFy-p4-anJ"/>
+                            <constraint firstItem="N1C-og-E7n" firstAttribute="top" secondItem="QZk-VH-hPt" secondAttribute="bottom" constant="53" id="NZR-ud-Smk"/>
+                            <constraint firstItem="41t-YU-PxR" firstAttribute="leading" secondItem="vvD-wo-puj" secondAttribute="trailing" constant="-69" id="OgV-fr-bTb"/>
+                            <constraint firstItem="QZk-VH-hPt" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="83" id="PDM-eG-A2T"/>
+                            <constraint firstItem="vvD-wo-puj" firstAttribute="top" secondItem="QZk-VH-hPt" secondAttribute="bottom" constant="48" id="bGa-NO-Svh"/>
+                            <constraint firstItem="jlS-JN-225" firstAttribute="top" secondItem="vvD-wo-puj" secondAttribute="bottom" constant="32" id="mQI-r2-R4a"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Setings" image="Settings" id="cPa-gy-q4n" colorLabel="IBBuiltInLabel-Red"/>
+                    <connections>
+                        <outletCollection property="switches" destination="vvD-wo-puj" collectionClass="NSMutableArray" id="1bO-0b-QTX"/>
+                        <outletCollection property="switches" destination="jlS-JN-225" collectionClass="NSMutableArray" id="6t9-uu-vaD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="347"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Decision" width="25" height="25"/>
+        <image name="Settings" width="25" height="25"/>
+        <image name="grassBackground" width="372" height="696"/>
+    </resources>
+</document>

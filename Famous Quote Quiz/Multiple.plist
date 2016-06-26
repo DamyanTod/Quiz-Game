@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Question</key>
+		<string>What is normal for most afro americans ?</string>
+		<key>Choice</key>
+		<array>
+			<string>blue eyes</string>
+			<string>blond hair</string>
+			<string>big nose</string>
+		</array>
+		<key>Answer</key>
+		<string>big nose</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>Capital of Greece is ?</string>
+		<key>Choice</key>
+		<array>
+			<string>Sofia</string>
+			<string>Athens</string>
+			<string>Ankara</string>
+		</array>
+		<key>Answer</key>
+		<string>Athens</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>What did the witch ask Rapunzel to let down ?</string>
+		<key>Choice</key>
+		<array>
+			<string>her parents</string>
+			<string>her hair</string>
+			<string>her privacy</string>
+		</array>
+		<key>Answer</key>
+		<string>her hair</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>Kobe Bryant plays which sport proffesionally ?</string>
+		<key>Choice</key>
+		<array>
+			<string>basketball</string>
+			<string>football</string>
+			<string>golf</string>
+		</array>
+		<key>Answer</key>
+		<string>basketball</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>What company is Super Mario the official muscot of ?</string>
+		<key>Choice</key>
+		<array>
+			<string>Nintendo</string>
+			<string>Sony</string>
+			<string>Apple</string>
+		</array>
+		<key>Answer</key>
+		<string>Nintendo</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>What is normal for most afro americans ?</string>
+		<key>Choice</key>
+		<array>
+			<string>blue eyes</string>
+			<string>blond hair</string>
+			<string>big nose</string>
+		</array>
+		<key>Answer</key>
+		<string>big nose</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>What food might you eat of cob ?</string>
+		<key>Choice</key>
+		<array>
+			<string>corn</string>
+			<string>potatoes</string>
+			<string>banan</string>
+		</array>
+		<key>Answer</key>
+		<string>corn</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>Which country is Prague in ?</string>
+		<key>Choice</key>
+		<array>
+			<string>Czech Republic</string>
+			<string>Spain</string>
+			<string>Sweden</string>
+		</array>
+		<key>Answer</key>
+		<string>Czech Republic</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>What is the diameter of Earth in miles?</string>
+		<key>Choice</key>
+		<array>
+			<string>8 000</string>
+			<string>5 000</string>
+			<string>10 000</string>
+		</array>
+		<key>Answer</key>
+		<string>8 000</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>What is the capital city of Spain ?</string>
+		<key>Choice</key>
+		<array>
+			<string>Madrid</string>
+			<string>Barcelona</string>
+			<string>Lisabon</string>
+		</array>
+		<key>Answer</key>
+		<string>Madrid</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>How many planets are in the solar system?</string>
+		<key>Choice</key>
+		<array>
+			<string>10</string>
+			<string>8</string>
+			<string>9</string>
+		</array>
+		<key>Answer</key>
+		<string>8</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string> Which planet is closest to the sun?</string>
+		<key>Choice</key>
+		<array>
+			<string>Mercury</string>
+			<string>Venera</string>
+			<string>Mars</string>
+		</array>
+		<key>Answer</key>
+		<string>Mercury</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>What&apos;s the Symbol to iron?</string>
+		<key>Choice</key>
+		<array>
+			<string>Fe</string>
+			<string>Be</string>
+			<string>Ca</string>
+		</array>
+		<key>Answer</key>
+		<string>Fe</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>Which country gave the USA the &apos;Statute of Liberty ?</string>
+		<key>Choice</key>
+		<array>
+			<string>France</string>
+			<string>Canada</string>
+			<string>Switzerland</string>
+		</array>
+		<key>Answer</key>
+		<string>France</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>What is the fastest land animal in the world?</string>
+		<key>Choice</key>
+		<array>
+			<string>cheetah</string>
+			<string>deer</string>
+			<string>leopard</string>
+		</array>
+		<key>Answer</key>
+		<string>cheetah</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string> How many legs does a spider have?</string>
+		<key>Choice</key>
+		<array>
+			<string>10</string>
+			<string>8</string>
+			<string>6</string>
+		</array>
+		<key>Answer</key>
+		<string>8</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>Which is the most popular ornament used to place at the top of the Christmas tree ?</string>
+		<key>Choice</key>
+		<array>
+			<string>angel</string>
+			<string>star</string>
+			<string>pumpkin</string>
+		</array>
+		<key>Answer</key>
+		<string>angel</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>Which city has the largest population ?</string>
+		<key>Choice</key>
+		<array>
+			<string>Tokyo</string>
+			<string>Paris</string>
+			<string>New York</string>
+		</array>
+		<key>Answer</key>
+		<string>Tokyo</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>How many men have walked on the moon ? </string>
+		<key>Choice</key>
+		<array>
+			<string>4</string>
+			<string>8</string>
+			<string>12</string>
+		</array>
+		<key>Answer</key>
+		<string>12</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>Which is the world&apos;s second-largest country in land area ?</string>
+		<key>Choice</key>
+		<array>
+			<string>Canada</string>
+			<string>China</string>
+			<string>Russia</string>
+		</array>
+		<key>Answer</key>
+		<string>Canada</string>
+	</dict>
+	<dict>
+		<key>Question</key>
+		<string>How many rings in the Olympics emblem ?</string>
+		<key>Choice</key>
+		<array>
+			<string>five</string>
+			<string>four</string>
+			<string>six</string>
+		</array>
+		<key>Answer</key>
+		<string>five</string>
+	</dict>
+</array>
+</plist>
